@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/glass"
+    tools:context="com.campandroid.dday.MainActivity" >
+
+    <TextView
+        android:id="@+id/txtPassed"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="28dp"
+        android:background="#333333"
+        android:text="계산하기를 눌러주세요"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#EEEEEE" />
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="135dp"
+        android:alpha="0.5"
+        android:background="#333333"
+        android:text="계산하기"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
